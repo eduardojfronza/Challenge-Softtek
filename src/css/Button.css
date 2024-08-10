@@ -1,0 +1,32 @@
+.btn {
+    background-color: var(--bg-dark-green);
+    border: none;
+    padding: 14px;
+    border-radius: 8px;  
+
+    font-weight: 600;
+    font-size: 14px;
+    outline: none;
+}
+
+.btn:hover {
+    background-color: var(--bg-light-green); 
+}
+
+.btn-secondary {
+    background-color:transparent;
+    border: 1px solid var(--bg-dark-green);
+    padding: 14px;
+    border-radius: 8px;  
+
+    font-weight: 600;
+    font-size: 14px;
+    outline: none;
+    color: var(--text-light-green);
+}
+
+.btn-secondary:hover {
+    background-color: var(--bg-light-green); 
+    color: #000;
+}
+

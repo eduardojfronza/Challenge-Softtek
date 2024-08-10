@@ -1,0 +1,31 @@
+.title {
+    color: var(--text-white);
+    font-size: 48px;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.second-title {
+    color: var(--text-white);
+    font-size: 28px;
+}
+
+.subtitle {
+    margin: auto;
+
+    color: var(--text-light-green);
+    font-size: 28px;
+    text-align: center;
+}
+
+.paragraph {
+    max-width: 620px;
+    margin: 40px auto;
+
+    color: var(--text-light-gray);
+    text-align: center;
+}
+
+.second-paragraph {
+    color: var(--text-light-gray);
+}
