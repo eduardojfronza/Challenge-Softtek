@@ -58,7 +58,7 @@ function Solution() {
                     </article>
 
                     <div>
-                        <SecondaryButton text={"Preview"} />
+                        <SecondaryButton text={"Preview"} link={"/preview"} />
                     </div>
                 </section>
             </main>

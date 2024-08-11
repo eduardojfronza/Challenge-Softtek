@@ -3,6 +3,7 @@ import descricaoDesafio from './img/descricao-desafio.png'
 
 import Header from "./components/Header"
 import SecondTitle from "./components/Text/SecondTitle"
+import Footer from "./components/Footer";
 
 
 function About() {
@@ -26,22 +27,22 @@ function About() {
                     <SecondTitle text={"Conheça sobre os desenvolvedores"} />
 
                     <div className="container-developer">
-                        <img src={descricaoDesafio} />
+                        <img src="https://avatars.githubusercontent.com/u/84184154?v=4" />
 
                         <div>
                             <span>@rm556068</span>
                             <h3>Eduardo Fronza</h3>
-                            <p>Eduardo foi responsável pela construção do estilo atráves do figma. Além disso desenvolveu o código com Html para estruturação da página e o Javascript para a lógica.</p>
+                            <p>Eduardo foi responsável pela construção do estilo e da construção com código do projeto.</p>
                         </div>
                     </div>
 
                     <div className="container-developer">
-                        <img src={descricaoDesafio} />
+                        <img src="https://avatars.githubusercontent.com/u/84185442?v=4" />
 
                         <div>
                             <span>@rm556808</span>
                             <h3>João Trein</h3>
-                            <p>Eduardo foi responsável pela construção do estilo atráves do figma. Além disso desenvolveu o código com Html para estruturação da página e o Javascript para a lógica.</p>
+                            <p>João foi responsável pela construção dos roteiros e edição dos videos pitchs.</p>
                         </div>
                     </div>
                 </section>
@@ -61,6 +62,8 @@ function About() {
                     </div>
                 </section>
             </main>
+
+            <Footer />
         </>
     )
 }

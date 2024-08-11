@@ -1,3 +1,4 @@
+import Footer from "./components/Footer"
 import Header from "./components/Header"
 import SecondParagraph from "./components/Text/SecondParagraph"
 import SecondTitle from "./components/Text/SecondTitle"
@@ -32,6 +33,8 @@ function Challenge() {
                     </div>
                 </section>
             </main>
+
+            <Footer />
         </>
     )
 }

@@ -1,0 +1,19 @@
+.select {
+    background-color: var(--bg-light-gray);
+    color: white;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+}
+
+.solutions {
+    background-color: var(--bg-light-gray);    
+    color: white;
+
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 8px;
+}

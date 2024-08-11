@@ -11,7 +11,7 @@ function Header() {
             </a>
 
             <nav className="menu">
-                <SecondaryButton link={""} text={"Preview"} />
+                <SecondaryButton link={"/preview"} text={"Preview"} />
                 <Button text={"Sobre o projeto"} link={"/sobre"} />
             </nav>
         </header>

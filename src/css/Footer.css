@@ -1,0 +1,23 @@
+
+.footer    {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 80px;
+    background-color: var(--bg-dark-gray);
+    border-radius: 8px;
+   
+    margin: 10px;
+    padding: 10px 40px;
+ }
+
+.footer  p  {
+   color: var(--text-dark-gray);
+   display: flex;
+   flex-direction: column;
+   text-align: end;
+}
+
+.footer  p span {
+    color: var(--text-light-green);
+ }

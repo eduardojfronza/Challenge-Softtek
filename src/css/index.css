@@ -21,6 +21,7 @@ body {
 
 main {
   margin: 0 10px;
+  min-height: 65vh;
 }
 
 p, h1, h2, h3, h4, h5, h6 {

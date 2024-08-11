@@ -4,6 +4,7 @@ import Header from "./components/Header"
 import Paragraph from "./components/Text/Paragraph"
 import Subtitle from "./components/Text/Subtitle"
 import Title from "./components/Text/Title"
+import Footer from "./components/Footer"
 
 function App() {
   return (
@@ -19,7 +20,7 @@ function App() {
             <ul>
               <li><a href="/desafio">Desafio</a></li>
               <li><a href="/solucao">Solução</a></li>
-              <li><a href="">Preview</a></li>
+              <li><a href="/preview">Preview</a></li>
             </ul>
           </nav>
         </section>
@@ -36,6 +37,8 @@ function App() {
           </article>
         </section>
       </main>
+
+      <Footer />
     </>
   )
 }

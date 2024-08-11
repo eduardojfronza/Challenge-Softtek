@@ -1,4 +1,4 @@
-import './index.css'
+import './css/index.css'
 
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
@@ -8,6 +8,7 @@ import App from './App.jsx'
 import Challenge from './Challenge.jsx'
 import About from './About.jsx'
 import Solution from './Solution.jsx'
+import Preview from './Preview.jsx'
 
 const router = createBrowserRouter([
   {
@@ -25,6 +26,10 @@ const router = createBrowserRouter([
   {
     path: "/solucao",
     element: <Solution />
+  },
+  {
+    path: "/preview",
+    element: <Preview />
   }
 ])
 
