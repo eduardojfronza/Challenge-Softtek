@@ -1,9 +1,9 @@
 import "../../css/Button.css"
 
-function Button({ text }) {
+function Button({ text, link }) {
     return (
         <button className="btn">
-            {text}
+            <a href={link}>{text}</a>
         </button>
     )
 }

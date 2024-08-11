@@ -6,6 +6,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 
 import App from './App.jsx'
 import Challenge from './Challenge.jsx'
+import About from './About.jsx'
 
 const router = createBrowserRouter([
   {
@@ -15,6 +16,10 @@ const router = createBrowserRouter([
   {
     path: "/desafio",
     element: <Challenge />
+  },
+  {
+    path: "/sobre",
+    element: <About />
   }
 ])
 

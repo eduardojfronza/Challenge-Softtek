@@ -6,11 +6,13 @@ import SecondaryButton from "../Button/SecondaryButton"
 function Header() {
     return (
         <header className="container">
-            <img src={logo} width={108} height={82} />
+            <a href="/">
+                <img src={logo} width={108} height={82} />
+            </a>
 
             <nav className="menu">
-                <SecondaryButton text={"Preview"} />
-                <Button text={"Sobre o projeto"} />
+                <SecondaryButton link={""} text={"Preview"} />
+                <Button text={"Sobre o projeto"} link={"/sobre"} />
             </nav>
         </header>
     )

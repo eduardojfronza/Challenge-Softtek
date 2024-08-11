@@ -1,9 +1,9 @@
 import "../../css/Button.css"
 
-function SecondaryButton({ text }) {
+function SecondaryButton({ text, link }) {
     return (
         <button className="btn-secondary">
-            {text}
+            <a href={link}>{text}</a>
         </button>
     )
 }

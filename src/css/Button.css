@@ -9,6 +9,11 @@
     outline: none;
 }
 
+.btn  a{
+    text-decoration: none;
+    color: #000;
+}
+
 .btn:hover {
     background-color: var(--bg-light-green); 
 }
@@ -22,11 +27,20 @@
     font-weight: 600;
     font-size: 14px;
     outline: none;
+}
+
+.btn-secondary  a {
+    text-decoration: none;
     color: var(--text-light-green);
 }
 
-.btn-secondary:hover {
+.btn-secondary:hover  {
     background-color: var(--bg-light-green); 
-    color: #000;
 }
+
+.btn-secondary:hover a {
+   color: #000; 
+}
+
+
 
