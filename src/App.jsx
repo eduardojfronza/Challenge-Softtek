@@ -18,7 +18,7 @@ function App() {
           <nav className="links">
             <ul>
               <li><a href="/desafio">Desafio</a></li>
-              <li><a href="">Solução</a></li>
+              <li><a href="/solucao">Solução</a></li>
               <li><a href="">Preview</a></li>
             </ul>
           </nav>

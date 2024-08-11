@@ -7,6 +7,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import App from './App.jsx'
 import Challenge from './Challenge.jsx'
 import About from './About.jsx'
+import Solution from './Solution.jsx'
 
 const router = createBrowserRouter([
   {
@@ -20,6 +21,10 @@ const router = createBrowserRouter([
   {
     path: "/sobre",
     element: <About />
+  },
+  {
+    path: "/solucao",
+    element: <Solution />
   }
 ])
 
