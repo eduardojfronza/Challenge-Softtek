@@ -1,40 +1,43 @@
-import './css/index.css'
+import "./css/index.css";
 
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
-import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import { StrictMode } from "react";
+import { createRoot } from "react-dom/client";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
-import App from './App.jsx'
-import Challenge from './Challenge.jsx'
-import About from './About.jsx'
-import Solution from './Solution.jsx'
-import Preview from './Preview.jsx'
+import App from "./App.jsx";
+import Challenge from "./Challenge.jsx";
+import About from "./About.jsx";
+import Solution from "./Solution.jsx";
+import Preview from "./Preview.jsx";
+import Problem from "./Problem.jsx";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <App />
+    element: <App />,
   },
   {
     path: "/desafio",
-    element: <Challenge />
+    element: <Challenge />,
   },
   {
     path: "/sobre",
-    element: <About />
+    element: <About />,
   },
   {
     path: "/solucao",
-    element: <Solution />
+    element: <Solution />,
   },
   {
     path: "/preview",
-    element: <Preview />
-  }
-])
+    element: <Preview />,
+  },
+  { path: "/AddNewProblem", 
+    element: <Problem /> },
+]);
 
-createRoot(document.getElementById('root')).render(
+createRoot(document.getElementById("root")).render(
   <StrictMode>
     <RouterProvider router={router} />
-  </StrictMode>,
-)
+  </StrictMode>
+);
