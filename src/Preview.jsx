@@ -4,8 +4,8 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import { Link } from 'react-router-dom';
 
-const SPREADSHEET_ID = '10WhZMxclOz0veVEn5gEcJIMmCFaVKzU1gL4f6ApFtkM'; 
-const API_KEY = 'AIzaSyDULzjj8brOxZlhrZaRwmnHhzMekGogn1w'; 
+const SPREADSHEET_ID = ''; 
+const API_KEY = ''; 
 
 async function fetchColumnData() {
   const urlK = `https://sheets.googleapis.com/v4/spreadsheets/${SPREADSHEET_ID}/values/Página1!K2:K?key=${API_KEY}`;
