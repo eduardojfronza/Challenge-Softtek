@@ -11,9 +11,18 @@
 .solutions {
     background-color: var(--bg-light-gray);    
     color: white;
-
     padding: 10px;
     margin: 10px 0;
     border: none;
     border-radius: 8px;
+   
 }
+
+.solutions p {
+    padding-top: 10px;
+}
+
+.btn-central{
+    margin-left: 35vw;
+}
+

@@ -16,6 +16,7 @@ Este projeto é uma aplicação React impulsionada pelo Vite, proporcionando um 
 - **gapi-script**: Facilita a integração com a biblioteca de cliente da API do Google.
 - **@google-cloud/local-auth**: Permite autenticação local segura com os serviços do Google Cloud.
 - **googleapis**: Biblioteca oficial da API do Google para Node.js.
+- **Google Sheets API:** API do Google sheets para manipulações de planilhas.
 
 ## Dependências de Desenvolvimento
 
@@ -27,32 +28,33 @@ Este projeto é uma aplicação React impulsionada pelo Vite, proporcionando um 
 ## Como Começar
 
 1. **Clone o repositório**:
+
    ```bash
    git clone <repo-url>
    cd challenge-softtek
    ```
-
 2. **Instale as dependências**:
+
    ```bash
    npm install
    ```
-
 3. **Inicie o servidor de desenvolvimento**:
+
    ```bash
    npm run dev
    ```
-
 4. **Build para produção**:
+
    ```bash
    npm run build
    ```
-
 5. **Visualize o build de produção**:
+
    ```bash
    npm run preview
    ```
-
 6. **Execute o lint no código**:
+
    ```bash
    npm run lint
    ```
