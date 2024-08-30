@@ -1,5 +1,4 @@
 import "./css/About.css"
-import descricaoDesafio from './img/descricao-desafio.png'
 
 import Header from "./components/Header"
 import SecondTitle from "./components/Text/SecondTitle"
@@ -32,7 +31,7 @@ function About() {
                         <div>
                             <span>@rm556068</span>
                             <h3>Eduardo Fronza</h3>
-                            <p>Eduardo foi responsável pela construção do estilo e da construção com código do projeto.</p>
+                            <p>Eduardo foi responsável pela construção do estilo e da construção do código do projeto.</p>
                         </div>
                     </div>
 
@@ -42,7 +41,7 @@ function About() {
                         <div>
                             <span>@rm556808</span>
                             <h3>João Trein</h3>
-                            <p>João foi responsável pela construção dos roteiros e edição dos videos pitchs.</p>
+                            <p>João foi responsável pela construção dos roteiros, edição dos videos pitchs e na construção do código.</p>
                         </div>
                     </div>
                 </section>

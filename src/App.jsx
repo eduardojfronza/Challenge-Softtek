@@ -13,7 +13,7 @@ function App() {
       <main>
         <Title text={"Challenge Softtek"} />
         <Subtitle text={"Melhorando o tempo de respostas de chamados"} />
-        <Paragraph text={"Nesse challenge buscamos melhorar o tempo de resposta que o atendente consegue devolver para o usuário, através de uma filtragem de chamados com IA. Quantos mais casos resolvidos, mais chances de os problemas serem resolvidos em poucos minutos."} />
+        <Paragraph text={"Nesse challenge buscamos melhorar o tempo de resposta que o atendente consegue devolver para o usuario, atraves de uma filtragem de chamados com IA. Quantos mais casos resolvidos, mais chances de os problemas serem resolvidos em poucos minutos."} />
 
         <section>
           <nav className="links">
